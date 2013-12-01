@@ -6,6 +6,18 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDisposeCheckRules", "SPDisposeCheckRules\SPDisposeCheckRules.csproj", "{94EA077E-7D44-41ED-BE06-9E8E429E4D19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SPDisposeCheck", "SPDisposeCheck", "{DB4D6E23-E3C5-4AFF-962F-8F9896443F6D}"
+	ProjectSection(SolutionItems) = preProject
+		libs\SharePoint SPDisposeCheck\EULA.rtf = libs\SharePoint SPDisposeCheck\EULA.rtf
+		libs\SharePoint SPDisposeCheck\GlobalAddin.config = libs\SharePoint SPDisposeCheck\GlobalAddin.config
+		libs\SharePoint SPDisposeCheck\SPDispose_Readme.rtf = libs\SharePoint SPDisposeCheck\SPDispose_Readme.rtf
+		libs\SharePoint SPDisposeCheck\SPDisposeCheck.exe = libs\SharePoint SPDisposeCheck\SPDisposeCheck.exe
+		libs\SharePoint SPDisposeCheck\SPDisposeCheckAddinCustomAction.dll = libs\SharePoint SPDisposeCheck\SPDisposeCheckAddinCustomAction.dll
+		libs\SharePoint SPDisposeCheck\SPDisposeCheckAddinCustomAction.InstallState = libs\SharePoint SPDisposeCheck\SPDisposeCheckAddinCustomAction.InstallState
+		libs\SharePoint SPDisposeCheck\SPDisposeCheckVSAddin.dll = libs\SharePoint SPDisposeCheck\SPDisposeCheckVSAddin.dll
+		libs\SharePoint SPDisposeCheck\SPDisposeExamples.exe = libs\SharePoint SPDisposeCheck\SPDisposeExamples.exe
+		libs\SharePoint SPDisposeCheck\SPDisposeExamples.pdb = libs\SharePoint SPDisposeCheck\SPDisposeExamples.pdb
+		libs\SharePoint SPDisposeCheck\SPDisposeExamplesSource.zip = libs\SharePoint SPDisposeCheck\SPDisposeExamplesSource.zip
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
