@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Rules FriendlyName="SPDisposeCheck Rules">
+  <Rule TypeName="SPDisposeCheck" Category="SPDisposeCheck" CheckId="SPD000">
+    <Name>SPDisposeCheck Error</Name>
+    <FixCategories>Breaking</FixCategories>
+    <MessageLevel Certainty="100">Error</MessageLevel>
+    <Resolution>ID: {0}  {1}  Method: {2}  Statement: {3}</Resolution>
+    <Description>SharePoint API objects not properly disposed.</Description>
+    <Owner></Owner>
+    <Email></Email>
+    <Url>http://blogs.msdn.com/rogerla/archive/2008/02/12/sharepoint-2007-and-wss-3-0-dispose-patterns-by-example.aspx</Url>
+  </Rule>
+</Rules>
